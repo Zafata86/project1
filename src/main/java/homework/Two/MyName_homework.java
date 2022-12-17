@@ -1,5 +1,5 @@
 // Class name.
-package Homework;
+package homework.Two;
 
 // Import library Scanner.
 import java.util.Scanner;

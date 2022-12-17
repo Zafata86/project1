@@ -1,11 +1,11 @@
 // Class name.
-package Homework;
+package homework.Two;
 
 // Import library Scanner.
 
 import java.util.Scanner;
 
-public class WordCount_homework {
+public class    WordCount_homework {
     public static void main(String[] args) {
 
         // Create a new Scanner name "scanner" and read from console.

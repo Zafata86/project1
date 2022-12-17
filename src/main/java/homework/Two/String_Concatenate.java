@@ -1,12 +1,12 @@
 // Class name.
-package Homework;
+package homework.Two;
 
 // Import library Scanner.
 import java.util.Scanner;
 
-public class EqualString_homework {
+public class String_Concatenate {
+    // Create a main cycle.
     public static void main(String[] args) {
-
         // Create a new Scanner name "scanner" and read from console.
         Scanner scanner = new Scanner(System.in);
 
@@ -18,11 +18,12 @@ public class EqualString_homework {
         System.out.print("Second String : ");
         String secondReadString = scanner.nextLine();
 
-        // Check if string is equal or NOT.
-        if (firstReadString.equals(secondReadString)) {
-            System.out.println("String is equal !");
-        } else {
-            System.out.println("String NOT is equal !");
-        }
+        // Read third string variable thirdReadString from console.
+        System.out.print("Third String : ");
+        String thirdReadString = scanner.nextLine();
+
+        // Print all concatenate strings.
+        System.out.printf("%s %s %s", firstReadString, secondReadString, thirdReadString);
+
     }
 }
