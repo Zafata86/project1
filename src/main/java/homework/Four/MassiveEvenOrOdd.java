@@ -22,7 +22,7 @@ public class MassiveEvenOrOdd {
         int countEven = 0;
         int countOdd = 0;
 
-        while (numberStr.equalsIgnoreCase("No") || numberStr.equalsIgnoreCase("N")) { // todo make a cycle work !!!
+        while (numberStr.equalsIgnoreCase("No") || numberStr.equalsIgnoreCase("N")) {
 
             System.out.print("Input one number : ");
             number.add(scanner.nextInt());
@@ -52,8 +52,4 @@ public class MassiveEvenOrOdd {
         System.out.printf("The count of Even number is : %d \nSum of even number is : %d \n",countEven, sumEven);
         System.out.printf("The count of Odd number is : %d \nSum of odd number is : %d",countOdd, sumOdd);
     }
-
-    public static void arrayList() {
-    }
-
 }
