@@ -2,7 +2,7 @@ package homework.Four;
 
 import java.util.Scanner;
 
-public class N_Number_Div_3_7 {
+public class N_Number_Not_Div_3_7 {
 
     public static int x = 0;
 
@@ -33,15 +33,11 @@ public class N_Number_Div_3_7 {
     private static void divider(int div) {
         // divide to 3.
         if (div % 3 != 0) {
-//            System.out.print(div);
-//            printOut();
             if (div < x) {
                 System.out.print(div);
                 printOut();
             }
         } else if (div % 7 == 0) {
-//            System.out.print(div);
-//            printOut();
             if (div < x) {
                 System.out.print(div);
                 printOut();
