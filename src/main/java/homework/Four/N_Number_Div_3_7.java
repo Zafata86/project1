@@ -32,15 +32,18 @@ public class N_Number_Div_3_7 {
     // method for divide to 3 and 7.
     private static void divider(int div) {
         // divide to 3.
-        if (div % 3 == 0) {
-            System.out.print(div);
+        if (div % 3 != 0) {
+//            System.out.print(div);
+//            printOut();
             if (div < x) {
+                System.out.print(div);
                 printOut();
             }
-        // divide to 7.
         } else if (div % 7 == 0) {
-            System.out.print(div);
+//            System.out.print(div);
+//            printOut();
             if (div < x) {
+                System.out.print(div);
                 printOut();
             }
         }

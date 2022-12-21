@@ -40,7 +40,7 @@ public class MassiveEvenOrOdd {
             count++;
 
             System.out.println("Do you finish ?  Y / N");
-//            numberStr = scanner.nextLine();
+
             if(numberStr.equalsIgnoreCase("Yes") || numberStr.equalsIgnoreCase("Y")){
                 break;
             }else{
@@ -49,7 +49,8 @@ public class MassiveEvenOrOdd {
             }
 
         }
-        System.out.printf("The count of Even number is : %d \nSum of even number is : %d \n",countEven, sumEven);
+        System.out.printf("The count of Even number is : %d \n",countEven);
+        System.out.printf("Sum of even number is : %d \n", sumEven);
         System.out.printf("The count of Odd number is : %d \nSum of odd number is : %d",countOdd, sumOdd);
     }
 }
