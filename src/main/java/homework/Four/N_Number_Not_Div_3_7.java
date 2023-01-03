@@ -29,7 +29,7 @@ public class N_Number_Not_Div_3_7 {
         }
     }
 
-    // method for divide to 3 and 7.
+    // method for not divide to 3 and 7.
     private static void divider(int div) {
         // divide to 3.
         if (div % 3 != 0) {
