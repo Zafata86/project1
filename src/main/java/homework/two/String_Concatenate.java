@@ -23,7 +23,8 @@ public class String_Concatenate {
         String thirdReadString = scanner.nextLine();
 
         // Print all concatenate strings.
-        System.out.printf("%s %s %s", firstReadString, secondReadString, thirdReadString);
+        System.out.printf("%s", firstReadString.concat(" " + secondReadString.concat(" " + thirdReadString)));
+//        System.out.printf("%s %s %s", firstReadString, secondReadStrin, thirdReadString);
 
     }
 }
