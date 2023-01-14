@@ -5,6 +5,7 @@ public class Animal {
     private String animalId;
     private float age;
     private String name;
+    int counter ;
 
     public String getAnimalId() {
         return animalId;
@@ -12,6 +13,8 @@ public class Animal {
 
     public void setAnimalId(String animalId) {
         this.animalId = animalId;
+        counter++;
+        System.out.println(counter);
     }
 
     public float getAge() {
@@ -28,5 +31,9 @@ public class Animal {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getCounter() {
+        return counter;
     }
 }

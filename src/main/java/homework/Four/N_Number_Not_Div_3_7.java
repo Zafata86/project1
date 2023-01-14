@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class N_Number_Not_Div_3_7 {
 
-    public static int x = 0;
+    private static int x = 0;
 
     public static void main(String[] args) {
 
@@ -24,7 +24,6 @@ public class N_Number_Not_Div_3_7 {
         // for cycle logic : i < number  ; i++
         x = number;
         for (int i = 1; i <= number; i++) {
-
             divider(i);
         }
     }

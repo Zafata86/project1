@@ -8,6 +8,7 @@ public class main {
 
         Dog dog1 = new Dog();
         Cat cat1 = new Cat();
+//        Animal count = new Animal()
 
         dog1.setAnimalId("Dog");
         dog1.setBreed("Poodle");
@@ -21,9 +22,10 @@ public class main {
         cat1.setAge(2.4f);
         cat1.setDiagnose("Tail problem");
 
-        System.out.printf("Animal type is : %s, breed is : %s, name is : %s,  age : %.2f, healthy status : %s \n",
+        System.out.printf("Animal type is : %s, breed is : %s, name is : %s,  age : %.1f, healthy status : %s \n",
                 dog1.getAnimalId(), dog1.getBreed(), dog1.getName(), dog1.getAge(), dog1.getDiagnose());
-        System.out.printf("Animal type is : %s, breed is : %s, name is : %s,  age : %.2f, healthy status : %s \n",
+        System.out.printf("Animal type is : %s, breed is : %s, name is : %s,  age : %.1f, healthy status : %s \n",
                 cat1.getAnimalId(), cat1.getBreed(), cat1.getName(), cat1.getAge(), cat1.getDiagnose());
+//        System.out.println(cat1.getCounter());
     }
 }
