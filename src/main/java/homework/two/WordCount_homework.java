@@ -1,5 +1,5 @@
 // Class name.
-package homework.Two;
+package homework.two;
 
 // Import library Scanner.
 

@@ -1,6 +1,5 @@
-package homework.Six;
+package homework.six;
 
-import javax.tools.Tool;
 import java.util.Scanner;
 
 public class TwoMethod {
@@ -20,46 +19,34 @@ public class TwoMethod {
         System.out.print("--> : ");
         runMode = scanner.nextInt();
 
-        switch (runMode){
-            case 0 :
+        switch (runMode) {
+            case 0:
                 // Print to console some user instruction
                 System.out.println("Please enter two numbers for Average() method one by one");
                 inputNumbers.averageMethodForTwoNumbers(scanner.nextInt(), scanner.nextInt());
                 break;
-            case 1 :
+            case 1:
                 System.out.println("Please enter two numbers for Sum() method one by one");
                 inputNumbers.sumOfTwoNumbers(scanner.nextInt(), scanner.nextInt());
 
                 break;
-            case 2 :
+            case 2:
                 System.out.println("Please enter four numbers for Average(Sum(), Sum()) method one by one");
                 System.out.println(averageMethodForTwoNumbers(sumOfTwoNumbers(scanner.nextInt(), scanner.nextInt()), sumOfTwoNumbers(scanner.nextInt(), scanner.nextInt())));
 
                 break;
             default:
-                return;
         }
     }
 
-    // calculate method with return
     public static double averageMethodForTwoNumbers(int a, int b) {
 
-        // calculate result
-        double result = (1.0 * a + b) / 2.0;
-
-        // print to console
-//        System.out.println("Average result is " + result);
-        return result;
+        return (1.0 * a + b) / 2.0 ;
     }
 
     public static int sumOfTwoNumbers(int a, int b) {
 
-        // calculate result
-        int result = a + b;
-
-        // print to console
-//        System.out.println("Sum is " + result);
-        return result;
+        return a + b;
     }
 
 }

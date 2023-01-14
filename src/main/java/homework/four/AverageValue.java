@@ -1,11 +1,9 @@
-package homework.Four;
+package homework.four;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class AverageValue {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         // Create massive with 20 integer elements
         int[] number = new int[20];
@@ -28,6 +26,6 @@ public class AverageValue {
         int averageValue = sum / number.length;
 
         //Print to console final result.
-        System.out.printf("\nAverage value of massive is : \" %d \"\n", averageValue);
+        System.out.printf("%nAverage value of massive is : \" %d \"%n", averageValue);
     }
 }

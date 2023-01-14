@@ -1,4 +1,4 @@
-package homework.Five;
+package homework.five;
 
 public class Animal {
 
