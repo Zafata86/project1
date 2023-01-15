@@ -3,7 +3,7 @@ package homework.three;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Grader_number {
+public class graderNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

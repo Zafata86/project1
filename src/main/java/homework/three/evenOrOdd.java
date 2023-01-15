@@ -2,7 +2,7 @@ package homework.three;
 
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class evenOrOdd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Print on console text "Input a number : ", and cursor is stay to same line !

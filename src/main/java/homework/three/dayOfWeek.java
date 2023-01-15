@@ -2,7 +2,7 @@ package homework.three;
 
 import java.util.Scanner;
 
-public class DayOfWeek {
+public class dayOfWeek {
 
     public static void dayOfWeek (String dayOfWeek){
         switch (dayOfWeek){
