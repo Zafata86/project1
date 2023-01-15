@@ -14,7 +14,7 @@ public class areaOfTriangle {
         System.out.print("Please write a value for side - b : ");
         int b = scanner.nextInt();
 
-        System.out.print("Please write a value for angle - <BAC : ");
+        System.out.print("Please write a Degrees for angle - <BAC : ");
         int bac = scanner.nextInt();
 
         double sum = Math.abs(a * b * Math.sin(bac) / 2);
